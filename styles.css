@@ -1,0 +1,359 @@
+body {
+    background-color: hsl(217, 28%, 15%);
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+/* ---------------- Nav Bar ---------------- */
+.navbar {
+    background-color: hsl(217, 28%, 15%);
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: rgb(209, 208, 208);
+}
+
+.bars {
+    font-size: 30px;
+}
+
+/* ---------------- Title ---------------- */
+#title {
+    padding: 4% 3%;
+    margin: 0;
+    position: relative;
+    background-image: url("images/bg-curvy-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain, cover;
+    background-position: bottom; 
+}
+
+.title-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.title-head {
+    padding: 0 30%;
+    line-height: 1.5;
+    padding-top: 4%;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.title-para {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    padding: 1% 30%;
+    size: 3rem;
+    position: relative;
+    line-height: 1.5;
+}
+
+.title-btn {
+    background-color: hsl(176, 68%, 64%);
+    border-color: hsl(176, 68%, 64%);
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    font-size: 14px;
+    border-radius: 50px;
+    font-weight: 500;
+    width: 225px;
+    height: 50px;
+}
+
+.title-btn:hover {
+    background-color: hsl(176, 49%, 51%);
+    border-color: hsl(176, 49%, 51%);
+}
+
+.below-nav {
+    padding-top: 3%;
+}
+
+/* ---------------- Features ---------------- */
+#features {
+    background-color: hsl(218, 28%, 13%);
+    margin: 0;
+    padding: 5% 20%;
+}
+
+.feature {
+    padding: 3%;
+    font-size: 14px;
+}
+
+.feature-head {
+    font-family: 'Raleway', sans-serif;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.feature-img {
+    padding-bottom: 5%;
+}
+
+/* ---------------- Working ---------------- */
+#working {
+    background-color: hsl(218, 28%, 13%);
+    padding: 5% 4%;
+    text-align: left;
+    font-size: 14px;
+}
+
+.work-head {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.work-text {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.work-link {
+    font-family: 'Raleway', sans-serif;
+    color: hsl(176, 100%, 74%);
+    text-decoration: none;
+}
+
+.collab-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.work-link:hover {
+    color: white;
+}
+
+.left-div {
+    padding-top: 10%;
+}
+
+/* ---------------- Testimonials ---------------- */
+#testimonials {
+    background-color: hsl(218, 28%, 13%);
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    padding: 10% 10% 20%;
+    position: relative;
+    column-gap: 50px;
+}
+
+.card {
+    background-color: hsl(219, 30%, 18%);
+    position: relative;
+    padding: 2% 5% 0;
+}
+
+.card1::before {
+    content: url("images/bg-quotes.png");
+    position: absolute;
+    transform: translate(-15px,-35px);
+}
+
+.test-img {
+    float: left;
+    border-radius: 100%;
+    width: 12%;
+    padding-right: 3%;
+}
+
+.name {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.designation {
+    margin-top: 0;
+    font-size: 10px;
+}
+
+/* ---------------- CTA ---------------- */
+#cta {
+    background-color: hsl(217, 28%, 15%);
+    font-family: 'Raleway', sans-serif;
+    padding: 50px 74px 48px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    align-content: center;
+}
+
+::placeholder {
+    opacity: 0.4;
+}
+.input-mail {
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    border-radius: 50px;
+    width: 482px;
+    height: 50px;
+    padding: 20px 47px;
+    border: none;
+    outline: none;
+    margin-right: 20px;
+}
+
+.cta-btn {
+    position: relative;
+    display: inline;
+    background-color: hsl(176, 68%, 64%);
+    border-color: hsl(176, 68%, 64%);
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    border-radius: 50px;
+    font-weight: 500;
+    width: 225px;
+    height: 50px;
+}
+
+.cta-btn:hover {
+    background-color: hsl(176, 49%, 51%);
+    border-color: hsl(176, 49%, 51%);
+}
+
+/* ---------------- Footer ---------------- */
+#footer {
+    background-color: hsl(216, 53%, 9%);
+    padding: 15% 7% 5%;
+    text-align: left;
+}
+
+.social {
+    padding: 0 5%;
+}
+
+.foot-add {
+    padding-right: 40%;
+}
+
+.foot-img {
+    padding-bottom: 2%;
+}
+
+.foot-link {
+    color: white;
+    text-decoration: none;
+}
+
+.foot-link:hover {
+    color: rgb(190, 188, 188);
+}
+
+/* ---------------- Media tag ---------------- */
+
+
+@media (max-width: 991px) {
+    /* Title */
+    #title {
+        background-image: url("images/bg-curvy-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: contain, cover;
+        background-position: bottom;
+    }
+
+    .title-img {
+        padding-bottom: 5%;
+        width: 70%;
+    }
+
+    .below-nav {
+        padding: 20% 0 30%;
+    }
+
+    .title-text {
+        padding: 0 5%;
+    }
+
+    /* Testimonial */
+    .row {
+        margin-bottom: 150px;
+    }
+
+    .columns {
+        padding: 2% 0;
+    }
+
+    /* Working */
+    .collab-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        padding-bottom: 7%;
+    }
+
+    #working {
+        padding: 1% 0;
+    }
+
+    .left-div {
+        padding: 0 10%;
+    }
+
+    /* CTA */
+    #cta {
+        padding: 40px 25px;
+        bottom: 580px;
+    }
+
+    .input-mail {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    form {
+        padding: 0 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input-mail,.cta-btn {
+        width: 280px;
+        margin: 0 0 25px 0;
+    }
+
+    /* Footer */
+    #footer {
+        padding-top: 300px;
+    }
+
+
+    .social {
+        padding: 0 2%;
+        text-align: left;
+    }
+}
